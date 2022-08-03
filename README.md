@@ -1,2 +1,3 @@
 # vexProjects
-Code for VEX Robotics
+
+All shared projects written in VEXcode v5 and PROS for VEX Robotics.
