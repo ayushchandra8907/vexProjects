@@ -18,7 +18,7 @@
 // ---- END VEXCODE CONFIGURED DEVICES ----
 
 #include "vex.h"
-
+#include "cmath"
 using namespace vex;
 using namespace std;
 
@@ -76,6 +76,7 @@ int main() {
   while(true){
 
     //HIDDEN PROCESSES===================================================================================
+    //DRIVE PROCESS------------------------------------------
     //positions for joystick values
     x = (fwdDir)*Controller1.Axis4.position(); // x position of joystick (inverted if fwdDir = -1)
     y = (-1*fwdDir)*Controller1.Axis3.position(); // y position of joystick
