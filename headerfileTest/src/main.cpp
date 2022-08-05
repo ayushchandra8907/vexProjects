@@ -21,9 +21,13 @@
 #include "vex.h"
 using namespace vex;
 
-//header files
+//subsystems===============================================
 //drive 
-#include "drive.cpp"
+#include "drive.h"
+
+double rightPow;
+double leftPow;
+
 
 
 int main() {
