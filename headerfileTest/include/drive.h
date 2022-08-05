@@ -4,11 +4,10 @@
 #include "vex.h"
 
 //variables
-double leftPow;
-double rightPow;
+// double leftPow;
+// double rightPow;
 
 //methods
-void getMotorValues();
 void setMotors();
 
 

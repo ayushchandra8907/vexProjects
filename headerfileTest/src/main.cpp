@@ -32,7 +32,8 @@ int main() {
   vexcodeInit();
 
   while(true){
-    
+    //driver methods
+    setMotors();
 
     wait(20, msec);
   }
