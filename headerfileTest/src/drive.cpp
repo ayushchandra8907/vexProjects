@@ -1,9 +1,12 @@
 #include "drive.h"
 
-//varibles
+void getMotorValues(){
+  rightPow = Controller1.Axis2.position();
+  leftPow = Controller1.Axis3.position();
+}
 
-void setMotors(double left, double right){
-  RFM.spin(forward, right, percent);
-  LFM.spin(forward, left, percent);
+void setMotors(){
+  RFM.spin(forward, rightPow, percent);
+  LFM.spin(forward, leftPow, percent);
 }
 

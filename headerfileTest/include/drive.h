@@ -3,10 +3,13 @@
 
 #include "vex.h"
 
+//variables
+double leftPow;
+double rightPow;
 
-//normal drive
-void setMotors(double left, double right);
-
+//methods
+void getMotorValues();
+void setMotors();
 
 
 #endif
