@@ -31,8 +31,10 @@ int main() {
 
   while(true){
     
-    //drive command
+    //drive command - moves base
     powerDriveMotors();
+
+
 
 
     wait(20, msec);
