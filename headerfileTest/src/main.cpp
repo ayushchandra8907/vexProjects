@@ -25,6 +25,9 @@ using namespace vex;
 //drive 
 #include "drive.h"
 
+double rightPow;
+double leftPow;
+
 
 
 int main() {
@@ -32,8 +35,15 @@ int main() {
   vexcodeInit();
 
   while(true){
+<<<<<<< HEAD
     //driver methods
     setMotors();
+=======
+    rightPow = Controller1.Axis2.position();
+    leftPow = Controller1.Axis3.position();
+
+    setMotors(rightPow, leftPow);
+>>>>>>> parent of de518ae (asdf)
 
     wait(20, msec);
   }
