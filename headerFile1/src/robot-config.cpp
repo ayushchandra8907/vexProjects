@@ -9,7 +9,7 @@ brain  Brain;
 
 // VEXcode device constructors
 controller Controller1 = controller(primary);
-motor RFM = motor(PORT1, ratio18_1, false);
+motor RFM = motor(PORT3, ratio18_1, false);
 motor LFM = motor(PORT2, ratio18_1, true);
 
 // VEXcode generated functions
@@ -17,7 +17,7 @@ motor LFM = motor(PORT2, ratio18_1, true);
 bool RemoteControlCodeEnabled = true;
 
 /**
- * Used to initialize code/tasks/devices added using tools in VEXcode Text.
+ * Used to initialize code/tasks/devices added using tools in VEXcode Pro.
  * 
  * This should be called at the start of your int main function.
  */
