@@ -17,12 +17,27 @@
 // LBM                  motor         4               
 // ---- END VEXCODE CONFIGURED DEVICES ----
 
+//required libraries
 #include "vex.h"
-
 using namespace vex;
+
+//header files
+//drive 
+#include "drive.cpp"
+
 
 int main() {
   // Initializing Robot Configuration. DO NOT REMOVE!
   vexcodeInit();
+
+  while(true){
+    rightPow = Controller1.Axis2.position();
+    leftPow = Controller1.Axis3.position();
+
+    setMotors(rightPow, leftPow);
+
+    wait(20, msec);
+  }
+  
   
 }
