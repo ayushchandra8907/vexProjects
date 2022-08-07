@@ -29,6 +29,8 @@ int main() {
   // Initializing Robot Configuration. DO NOT REMOVE!
   vexcodeInit();
 
+  Controller1.ButtonA.pressed(switchDir);
+
   while(true){
     
     //drive command - moves base
