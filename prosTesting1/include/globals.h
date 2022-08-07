@@ -4,6 +4,6 @@
 #include "main.h"
 
 extern pros::Controller controller1;
-extern pros::Motor motor1;
+extern pros::Motor RFM;
 
 #endif
