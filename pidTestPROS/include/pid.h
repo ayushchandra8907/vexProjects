@@ -2,10 +2,12 @@
 #define PID_H
 
 #include "main.h"
+#include "globals.h"
 
 class PID {
 public:
-    void moveTo(double target);
+    PID(double p, double i, double d);
+    void moveForward(double target);
 private:
     double kP;
     double kI;

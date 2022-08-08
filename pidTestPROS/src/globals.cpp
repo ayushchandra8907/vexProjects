@@ -1,4 +1,5 @@
 #include "globals.h"
+#include "pros/adi.hpp"
 
 //controller
 pros::Controller Controller1(pros::E_CONTROLLER_MASTER);
