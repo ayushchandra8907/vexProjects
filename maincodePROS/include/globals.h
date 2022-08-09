@@ -2,6 +2,7 @@
 #define GLOBALS_H
 
 #include "main.h"
+#include "pros/adi.hpp"
 
 //controller
 extern pros::Controller Controller1;
@@ -11,5 +12,8 @@ extern pros::Motor RFM;
 extern pros::Motor RBM;
 extern pros::Motor LFM;
 extern pros::Motor LBM;
+
+//sensors
+extern pros::ADIGyro gyro1;
 
 #endif
