@@ -58,7 +58,7 @@ void setDrive(double left, double right){ //sets drive motors to right and left 
     LBM = left;
 }
 
-void setDrive(double RF, double RB, double LF, double LB){
+void setDrive(double RF, double RB, double LF, double LB){ //sets drive motors individal motor vals
     RFM = RF;
     RBM = RB;
     LFM = LF;

@@ -16,4 +16,8 @@ extern pros::Motor LBM;
 //sensors
 extern pros::ADIGyro gyro1;
 
+extern pros::ADIEncoder rightTrack;
+extern pros::ADIEncoder centTrack;
+extern pros::ADIEncoder leftTrack;
+
 #endif

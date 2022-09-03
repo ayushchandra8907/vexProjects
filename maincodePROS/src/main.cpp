@@ -39,7 +39,7 @@ void initialize() {
 	LBM.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
 
 	//sensors initialize
-	pros::ADIGyro gyro1('A');
+	pros::ADIGyro gyro1(20);
 	pros::delay(2000);
 }
 
